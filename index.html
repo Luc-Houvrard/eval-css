@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Musique</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black text-white">
+    <!-- Navigation -->
+    <nav class="flex justify-between items-center px-8 py-4 bg-black bg-opacity-80">
+        <img src="image/logo.webp" alt="Coffee Musique Logo" class="w-12 h-12">
+        <div class="flex gap-8">
+            <a href="#accueil" class="hover:text-gray-300 transition-colors">Accueil</a>
+            <a href="#menu" class="hover:text-gray-300 transition-colors">Menu</a>
+            <a href="#boutique" class="hover:text-gray-300 transition-colors">Boutique</a>
+            <a href="#contact" class="hover:text-gray-300 transition-colors">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="relative h-[60vh] flex items-center justify-center">
+        <img src="image/fond.webp" alt="Coffee Shop Interior" class="absolute inset-0 w-full h-full object-cover">
+        <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+        <h1 class="relative text-6xl italic font-light text-white text-shadow">Coffee Musique</h1>
+    </div>
+
+    <!-- Products Grid -->
+    <div class="max-w-6xl mx-auto px-4 py-12">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Product Card 1 -->
+            <div class="bg-gray-900 rounded-lg overflow-hidden transform transition-transform hover:-translate-y-1">
+                <img src="image/poudre.jpg" alt="Café Grain" class="w-full h-48 object-cover">
+                <h3 class="p-4 text-center font-normal">Café Grain</h3>
+            </div>
+
+            <!-- Product Card 2 -->
+            <div class="bg-gray-900 rounded-lg overflow-hidden transform transition-transform hover:-translate-y-1">
+                <img src="image/grain.jpg" alt="Café Moulu" class="w-full h-48 object-cover">
+                <h3 class="p-4 text-center font-normal">Café Moulu</h3>
+            </div>
+
+            <!-- Product Card 3 -->
+            <div class="bg-gray-900 rounded-lg overflow-hidden transform transition-transform hover:-translate-y-1">
+                <img src="image/capsule.jpg" alt="Capsule Premium" class="w-full h-48 object-cover">
+                <h3 class="p-4 text-center font-normal">Capsule Premium</h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- Description -->
+    <div class="max-w-3xl mx-auto px-4 py-12 text-center">
+        <p class="mb-4 leading-relaxed">
+            Découvrez cette création, l'endroit où le café rejoint et entre en communion avec le rythme envoûtant de la musique live. De belles et douces notes faites pour les jours 24h/7.
+        </p>
+        <p class="leading-relaxed">
+            Jazz, Lofi, L'art de la mixité harmonieux pour tout les goûts.
+        </p>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 py-8 px-4">
+        <div class="max-w-6xl mx-auto text-center">
+            <p class="mb-2">Mention Légale</p>
+            <p class="mb-4">Politique de confidentialité</p>
+            <div class="flex justify-center gap-6">
+                <a href="#" class="hover:opacity-75 transition-opacity">
+                    <img src="image/facebook-brands-solid.svg" alt="Facebook" class="w-6 h-6">
+                </a>
+                <a href="#" class="hover:opacity-75 transition-opacity">
+                    <img src="image/instagram-brands-solid.svg" alt="Instagram" class="w-6 h-6">
+                </a>
+                <a href="#" class="hover:opacity-75 transition-opacity">
+                    <img src="image/x-twitter-brands-solid.svg" alt="Twitter" class="w-6 h-6">
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
